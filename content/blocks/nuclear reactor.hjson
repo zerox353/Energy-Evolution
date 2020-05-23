@@ -1,0 +1,44 @@
+{
+	"type": "ImpactReactor",
+	"name": "nuclear reactor",
+	"description": "utilise la radiation en energie surpuissante",
+	"health": 1000,
+	"itemCapacity": 20,
+	"size": 5,
+	"hasLiquids": true,
+	"powerProduction": 150,
+	"itemDuration": 500,
+	"generateEffect": "smeltsmoke",
+	"plasma0": "36a7f7",
+	"plasma1": "36a7f7",
+	"plasma2": "36f7ce",
+	"plasma3": "36f7ce",
+ "consumes": {
+  "power": 5, 
+  "liquid": {
+    "liquid": "nuclear liquid",
+    "amount": 0.15
+	 },
+	}
+	"requirements": [
+	    {
+			"item": "uranium",
+			"amount": 150
+		},
+		{
+			"item": "metaglass",
+			"amount": 100
+		},
+		{
+			"item": "Gold",
+			"amount": 250
+		},
+		{
+			"item": "thorium",
+			"amount": 200
+		},
+	],
+	"category": "power",
+	"research": "impact-reactor",
+	"idleSound": "EnergyLoop2",
+}	

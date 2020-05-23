@@ -1,0 +1,9 @@
+name:nuclear liquid 
+description:liquid composée de radiation chimique,très explosive 
+temperature:1
+viscosity:0.8
+damage:2
+explovisiness:1.5
+effect:burning
+statusEffect:melting
+color:517d4d

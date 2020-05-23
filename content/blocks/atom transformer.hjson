@@ -1,0 +1,37 @@
+type: GenericSmelter
+name: atom transformer 
+description: Utilise plusieur atomes diffèrent pour faire du plutonium 
+itemCapacity: 10
+health: 200
+size: 3
+hasItems: true
+hasPower: true
+hasLiquid: true
+craftTime: 60
+updateEffect: pulverizeRed
+consumes: {
+  power: 1
+  items: {
+    items: [
+      uranium/1
+      scrap/2
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.15
+  }
+}
+requirements: [
+  titanium/600
+  silicon/600
+  phase-fabric/500
+  Gold/500
+]
+category: crafting
+research: graphite-press
+activeSound: machine
+activeSoundVolume: 0.95
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: plutonium/1

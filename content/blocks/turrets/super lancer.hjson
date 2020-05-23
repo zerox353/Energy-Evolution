@@ -1,0 +1,32 @@
+type: ChargeTurret
+name: super lancer
+Description: une version améliorée du lancer
+category: turret
+range: 200
+chargeTime: 60
+chargeMaxDelay: 40
+chargeEffect: 7
+shootType: lancerLaser
+recoilAmount: 2
+reload: 100
+cooldown: 0.05
+powerUse: 5
+shootShake: 2
+shootEffect: lancerLaserShoot
+smokeEffect: lancerLaserShootSmoke
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: Color.red
+size: 3
+health: 1000
+damage: 200
+targetAir: false
+targetGround: true
+shootSound: laser
+research: lancer
+requirements: [
+  lead/200
+  palladium/50
+  silicon/100
+  Gold/100
+]

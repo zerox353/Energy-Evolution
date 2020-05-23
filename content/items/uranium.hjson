@@ -1,0 +1,6 @@
+type: material
+name: uranium 
+description: minerai hautement radioactive et dur
+hardness: 3
+cost: 2
+color: f2e879

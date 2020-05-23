@@ -1,0 +1,6 @@
+type: material 
+name: palladium
+description: Minerai solid nécessaire pour des construction puissantes 
+hardness: 4
+cost: 4
+color: f2e879

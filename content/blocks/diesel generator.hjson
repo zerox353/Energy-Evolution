@@ -1,0 +1,27 @@
+nam: diesel generator 
+description: génére de l'energi à partir du diesel
+size: 3
+hasItems: false
+hasLiquids: true
+hasPower: false
+itemCapacity: 0
+liquidCapacity: 20.0
+maxLiquidGenerate: 0.125
+powerProduction: 5.0
+
+requirements: [
+    lead/100,
+    metaglass/50,
+    phase-fabric/20,
+    silicon/100,
+]
+
+consumes: {
+    liquid: {
+        liquid: diesel
+        amount: 0.1
+     }
+}
+
+category: power
+research: turbine-generator

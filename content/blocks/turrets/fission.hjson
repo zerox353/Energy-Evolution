@@ -1,0 +1,80 @@
+{
+	"name": fission 
+    "description": tire des balls à une vitesse resonable et à moyenne portée 
+    "type": "BurstTurret",
+	"health": 1000, 
+	"size": 3,
+	"reload": 4,
+	"range": 200,
+	"inaccuracy": 1,
+	"rotatespeed": 25,
+	"shots": 1,
+	"burstSpacing": 3,
+	"targetAir": true, 
+	"targetGround": true,
+	"category": "turret",
+    "shootCone": 25,
+	"ammo": {
+		"Gold": {
+			"damage": 9,
+	    "lifetime": 100,
+			"speed": 8,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 24,
+			"splashDamage": 22,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"hitEffect": "flakExplosion",
+			"ammoMultiplier": 5
+		},
+		"pyratite": {
+			"damage": 8,
+	    "lifetime": 90,
+			"speed": 8,
+			"splashDamageRadius": 15,
+			"splashDamage": 27,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "burning" 
+		},
+		"solid cyrofluid": {
+			"damage": 8,
+	    "lifetime": 100,
+			"speed": 8,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 26,
+			"splashDamage": 30,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"fragBullet": "glassFrag",
+			"fragBullets": 6,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "freezing"
+		},
+		"palladium": {
+			"damage": 10,
+	    "lifetime": 100,
+			"speed": 8,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 26,
+			"splashDamage": 30,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"fragBullet": "glassFrag",
+			"fragBullets": 6,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "freezing"
+		},
+	},
+	"requirements": [
+		{ "item": "Gold", "amount": 100 },
+		{ "item": "palladium", "amount": 200},
+		{ "item": "lead", "amount": 100},
+		{ "item": "uranium", "amount":50}
+	],
+	"research": "scatter"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Reapast",
+	"description": "Glaive ameliorer,bien plus blindé et armé",
+	"speed": 0.64,
+	"drillPower": 5,
+	"mineSpeed": 4,
+	"drag": 0.07,
+	"mass": 2.1,
+	"buildPower": 1.7,
+	"engineOffset": 6.75,
+	"engineColor": "feb380",
+	"flying": true,
+	"health": 500,
+	"cellTrnsY": 1,
+	"itemCapacity": 90,
+	"weaponOffsetX": 20,
+	"weapon": {
+		"name": "halberd-equip",
+		"length": 1,
+		"reload": 0.01,
+		"shootSound": "shootSnap",
+		"alternate": true,
+		"bullet": "standardGlaive"
+	}
+}
