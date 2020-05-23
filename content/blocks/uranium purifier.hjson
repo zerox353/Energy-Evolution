@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: uranium purifier
+description: purifi l'uranium pour le rendre utilisable
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 40
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      uraninite/1
+    ]
+  }
+}
+requirements: [
+  titanium/200
+  silicon/100
+  Gold/200
+]
+category: crafting 
+research: pyratite-mixer 
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: uranium/1

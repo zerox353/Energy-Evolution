@@ -1,0 +1,6 @@
+type: material
+name: Gold
+description: Minerai principal du mod
+hardness: 3
+cost: 2
+color: f2e879

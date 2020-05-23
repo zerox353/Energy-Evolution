@@ -1,0 +1,6 @@
+type: resource
+name: uraninite 
+description: Minerai hautement radioactive
+hardness: 5
+cost: 5
+color: 614852

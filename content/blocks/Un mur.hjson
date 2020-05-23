@@ -1,0 +1,10 @@
+name: Un mur
+description: un mur super cheat
+type: Wall
+health: 5000
+size: 2
+requirements: [
+   copper/50
+]
+category: defense
+research: copper-wall-large

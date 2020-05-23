@@ -1,0 +1,22 @@
+name: massive healing
+description: guérie dans une plus grande porté qu'un mend projector et avec une meilleur efficacité 
+type: MendProjector
+health: 900
+size: 2
+buildCostMultiplier: 1
+hasPower: true
+baseColor: b950c7
+phaseColor: f6b4ff
+healPercent: 3
+range: 100
+reload: 200
+consumes: {
+  power: 10
+}
+requirements: [
+  titanium/50
+  lead/20
+  amethyst/20
+]
+category: effect
+research: conveyor

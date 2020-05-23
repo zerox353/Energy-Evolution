@@ -1,0 +1,6 @@
+typeItem: resource 
+name: amethyst stone
+description: Minerai utile pour la defence et au objet spéciale 
+hardness: 3
+cost: 3
+color: f2e879

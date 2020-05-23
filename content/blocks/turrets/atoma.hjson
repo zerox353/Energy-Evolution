@@ -1,0 +1,65 @@
+{
+	"name": "atoma"
+    "description": "tire des bals â long distance"
+    "type": "BurstTurret",
+	"health": 1000, 
+	"size": 3,
+	"reload": 150,
+	"range": 350,
+	"inaccuracy": 1,
+	"rotatespeed": 20,
+	"shots": 1,
+	"burstSpacing": 3,
+	"targetAir": true, 
+	"targetGround": true,
+	"category": "turret",
+    "shootCone": 25,
+	"ammo": {
+		"Gold": {
+			"damage": 160,
+	    "lifetime": 100,
+			"speed": 10,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 24,
+			"splashDamage": 22,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"hitEffect": "flakExplosion",
+			"ammoMultiplier": 5
+		},
+		"pyratite": {
+			"damage": 100,
+	    "lifetime": 90,
+			"speed": 9,
+			"splashDamageRadius": 15,
+			"splashDamage": 27,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "burning" 
+		},
+		"solid cyrofluid": {
+			"damage": 160,
+	    "lifetime": 100,
+			"speed": 9,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 26,
+			"splashDamage": 30,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"fragBullet": "glassFrag",
+			"fragBullets": 6,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "freezing"
+		},
+	},
+	"requirements": [
+		{ "item": "Gold", "amount": 100 },
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "plastanium", "amount": 50},
+		{ "item": "phase-fabric", "amount":25}
+	],
+	"research": "scatter"
+}

@@ -1,2 +1,2 @@
 # Energy-Evolution
-Add a new expérience game and new energy systeme
+Adds a new experience to the game and a new energy systeme

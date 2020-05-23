@@ -1,0 +1,6 @@
+type: resource
+name: solid cyrofluid 
+description: du cryofluid en solid 
+hardness: 1
+cost: 1
+color: 614852

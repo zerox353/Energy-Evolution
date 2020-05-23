@@ -1,0 +1,10 @@
+name:diesel
+description:du pétrole raffiné 
+temperature:0.1
+viscosity:0.8
+flammabilty: 3
+damage:1
+explovisiness:1
+effect:burning
+statusEffect:melting
+color:4c544b
